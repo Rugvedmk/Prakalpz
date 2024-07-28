@@ -1,0 +1,102 @@
+[
+  {
+    "project_title": "Automated Greenhouse Monitoring System",
+    "domain": "Hardware",
+    "college_name": "XYZ University",
+    "made_by_students": ["John Smith", "Emily Johnson", "Michael Davis"],
+    "project_description": "A system that monitors and automates greenhouse conditions for optimal plant growth.",
+    "tech_stack": ["Arduino", "Sensors", "IoT"],
+    "video_url": "https://www.youtube.com/watch?v=example1",
+    "likes": 120
+  },
+  {
+    "project_title": "Mobile Expense Tracker App",
+    "domain": "Software",
+    "college_name": "ABC College",
+    "made_by_students": ["Sarah Brown", "Daniel Lee"],
+    "project_description": "An app that helps users track and manage their daily expenses on their mobile devices.",
+    "tech_stack": ["React Native", "Node.js", "MongoDB"],
+    "video_url": "https://www.youtube.com/watch?v=example2",
+    "likes": 85
+  },
+  {
+    "project_title": "Automated Home Security System",
+    "domain": "Hardware",
+    "college_name": "LMN University",
+    "made_by_students": ["Alex Johnson", "Sophia Miller", "Robert Thompson"],
+    "project_description": "A system that enhances home security through automation and smart features.",
+    "tech_stack": ["Raspberry Pi", "Python", "Camera Module"],
+    "video_url": "https://www.youtube.com/watch?v=example3",
+    "likes": 200
+  },
+  {
+    "project_title": "AI-Powered Language Translation App",
+    "domain": "Software",
+    "college_name": "PQR College",
+    "made_by_students": ["Olivia Adams", "William Clark"],
+    "project_description": "An app that translates text and speech between multiple languages using AI algorithms.",
+    "tech_stack": ["Python", "TensorFlow", "Flutter"],
+    "video_url": "https://www.youtube.com/watch?v=example4",
+    "likes": 150
+  },
+  {
+    "project_title": "Smart Traffic Management System",
+    "domain": "Hardware",
+    "college_name": "DEF University",
+    "made_by_students": ["Sophie Baker", "Jason Turner", "Liam Davis"],
+    "project_description": "A system that uses sensors and AI to optimize traffic flow and reduce congestion.",
+    "tech_stack": ["Raspberry Pi", "Computer Vision", "Java"],
+    "video_url": "https://www.youtube.com/watch?v=example5",
+    "likes": 180
+  },
+  {
+    "project_title": "Eco-Friendly Waste Management App",
+    "domain": "Software",
+    "college_name": "GHI College",
+    "made_by_students": ["Emma Roberts", "Ethan Wilson"],
+    "project_description": "An app that promotes eco-friendly waste disposal practices and recycling.",
+    "tech_stack": ["React Native", "Node.js", "MongoDB"],
+    "video_url": "https://www.youtube.com/watch?v=example6",
+    "likes": 110
+  },
+  {
+    "project_title": "Autonomous Delivery Robot",
+    "domain": "Hardware",
+    "college_name": "JKL University",
+    "made_by_students": ["David Smith", "Sophia Thompson"],
+    "project_description": "A robot capable of autonomous deliveries in a predefined area, improving efficiency.",
+    "tech_stack": ["Raspberry Pi", "ROS", "Python"],
+    "video_url": "https://www.youtube.com/watch?v=example7",
+    "likes": 220
+  },
+  {
+    "project_title": "Health Monitoring Wearable",
+    "domain": "Hardware",
+    "college_name": "MNO College",
+    "made_by_students": ["Michael Johnson", "Sophia Miller", "Robert Davis"],
+    "project_description": "A wearable device that monitors vital signs and provides health alerts.",
+    "tech_stack": ["Arduino", "Sensors", "Bluetooth"],
+    "video_url": "https://www.youtube.com/watch?v=example8",
+    "likes": 190
+  },
+  {
+    "project_title": "Real-Time Weather Forecasting App",
+    "domain": "Software",
+    "college_name": "UVW University",
+    "made_by_students": ["Nathan Clark", "Mia Adams"],
+    "project_description": "An app that provides real-time weather forecasts and alerts using APIs and AI.",
+    "tech_stack": ["React Native", "Node.js", "OpenWeatherMap API"],
+    "video_url": "https://www.youtube.com/watch?v=example9",
+    "likes": 130
+  },
+  {
+    "project_title": "Interactive Educational VR Experience",
+    "domain": "Software",
+    "college_name": "RST College",
+    "made_by_students": ["Grace Smith", "Paul Walker"],
+    "project_description": "An immersive VR experience that enhances learning for students using virtual reality.",
+    "tech_stack": ["Unity", "C#", "Oculus SDK"],
+    "video_url": "https://www.youtube.com/watch?v=example10",
+    "likes": 250
+  }
+]
