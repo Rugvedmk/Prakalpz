@@ -1,0 +1,314 @@
+.abtmain {
+  /* Add any styles you want for the container of the background image */
+}
+
+.background-image {
+  /* Set the background image and style it */
+  background-image: url("image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed */
+
+  /* Add styles to make text readable on top of the image */
+  color: white;
+  /* text-align: center; */
+  padding: 50px; /* Add padding to the text to ensure it's visible */
+}
+
+.text-over-image {
+  /* Style for the text on top of the image */
+  margin-top: 10%;
+  font-size: 4em;
+  /* Add any other styles you want for the text */
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  /* font-weight: 500; */
+  margin-top: 70px;
+  font-family: sans-serif;
+  font-size: 2em;
+}
+.title2 {
+  font-size: 3em;
+}
+.textContainer {
+  font-family: sans-serif;
+  width: 50%;
+  font-weight: bolder;
+}
+.container-xyz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust the height as needed */
+}
+
+.box {
+  display: flex;
+  max-width: 1400px; /* Adjust the maximum width of the box as needed */
+  width: 100%;
+  background-color: #dbe2ef;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a visual effect */
+}
+.pTag {
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.second-image {
+  width: 100%;
+  display: block;
+}
+
+.text-container {
+  flex: 1;
+  text-align: left;
+  padding: 40px; /* Adjust padding as needed */
+}
+
+.buttonSW {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  color: #0f1923;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.15s ease;
+}
+
+.buttonSW::before,
+.buttonSW::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: calc(50% - 5px);
+  border: 1px solid #7d8082;
+  transition: all 0.15s ease;
+}
+
+.buttonSW::before {
+  top: 0;
+  border-bottom-width: 0;
+}
+
+.buttonSW::after {
+  bottom: 0;
+  border-top-width: 0;
+}
+
+.buttonSW:active,
+.buttonSW:focus {
+  outline: none;
+}
+
+.buttonSW:active::before,
+.buttonSW:active::after {
+  right: 3px;
+  left: 3px;
+}
+
+.buttonSW:active::before {
+  top: 3px;
+}
+
+.buttonSW:active::after {
+  bottom: 3px;
+}
+
+.button_lg {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0f1923;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background-color: #0f1923;
+}
+
+.button_lg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #0f1923;
+  transition: all 0.2s ease;
+}
+
+.button_sl {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
+  width: 0;
+  background-color: #ff4655;
+  transform: skew(-15deg);
+  transition: all 0.2s ease;
+}
+
+.button_text {
+  position: relative;
+}
+
+.buttonSW:hover {
+  color: #0f1923;
+}
+
+.buttonSW:hover .button_sl {
+  width: calc(100% + 15px);
+}
+
+.buttonSW:hover .button_lg::after {
+  background-color: #fff;
+}
+
+.buttonHW {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  color: #0f1923;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.15s ease;
+}
+
+.buttonHW::before,
+.buttonHW::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: calc(50% - 5px);
+  border: 1px solid #7d8082;
+  transition: all 0.15s ease;
+}
+
+.buttonHW::before {
+  top: 0;
+  border-bottom-width: 0;
+}
+
+.buttonHW::after {
+  bottom: 0;
+  border-top-width: 0;
+}
+
+.buttonHW:active,
+.buttonHW:focus {
+  outline: none;
+}
+
+.buttonHW:active::before,
+.buttonHW:active::after {
+  right: 3px;
+  left: 3px;
+}
+
+.buttonHW:active::before {
+  top: 3px;
+}
+
+.buttonHW:active::after {
+  bottom: 3px;
+}
+
+.button_lg {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0f1923;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background-color: #0f1923;
+}
+
+.button_lg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #0f1923;
+  transition: all 0.2s ease;
+}
+
+.button_slh {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
+  width: 0;
+  background-color: #210d96;
+  transform: skew(-15deg);
+  transition: all 0.2s ease;
+}
+
+.button_text {
+  position: relative;
+}
+
+.buttonSW:hover {
+  color: #0f1923;
+}
+
+.buttonHW:hover .button_slh {
+  width: calc(100% + 15px);
+}
+
+.buttonHW:hover .button_lg::after {
+  background-color: #fff;
+}

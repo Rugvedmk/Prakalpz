@@ -1,0 +1,9 @@
+.main-body {
+  background-color: #f9f7f7;
+  position:relative;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  /* display:flex; */
+}

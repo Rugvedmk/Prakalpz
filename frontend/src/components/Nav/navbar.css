@@ -1,0 +1,55 @@
+.custom-button {
+  border: none !important;
+  color: white;
+}
+
+.log-out {
+  padding-right: 10px;
+}
+
+.padd {
+  background-color: #fefcf3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-s {
+  margin-right: 240px;
+  color: white;
+}
+
+.button-edit {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  position: relative;
+
+  background-color: #3f72af;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  .button-edit {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .log-out {
+    padding-right: 5px;
+  }
+
+  .logo-s {
+    margin-right: 10px;
+    color: white;
+  }
+}

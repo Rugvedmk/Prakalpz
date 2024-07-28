@@ -1,0 +1,129 @@
+/* UploadForm.module.css */
+
+.upload-container {
+  display: flex;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.upload-left,
+.upload-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.upload-left {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #ddd;
+}
+
+.upload-right {
+  background-color: #f4f4f4;
+}
+
+.file-upload {
+  margin-bottom: 20px;
+}
+
+.file-upload label {
+  font-weight: bold;
+}
+
+.file-upload input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.preview {
+  margin-top: 10px;
+}
+
+.preview img,
+.preview video {
+  max-width: 100%;
+  height: auto;
+}
+
+.upload-right h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.upload-right label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.upload-right select,
+.upload-right input[type="text"],
+.upload-right textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 100px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.suggestions li {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.btnUpload {
+  /* background-color: #0074cc; */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnUpload:disabled {
+  background-color: #f1f1f1;
+  cursor: not-allowed;
+}
+
+.btnUpload:hover {
+  background-color: #005a9e;
+}
+
+.progress-bar-wrapper {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  /* color: #0074cc; */
+  text-align: left;
+  margin: 20px 0;
+}
